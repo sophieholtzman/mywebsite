@@ -69,12 +69,16 @@ mapview(ky_counties_withgeo, zcol = "medageE",
 Not only does this change the color of the map (because I personally like blue better), but it also labels each county so that when you hover over it the county name is displayed.
 
 ```{r}
-mypopup <- glue::glue("<strong>{ky_counties_withgeo$NAM}</strong><br />
-                      Total Population: {ky_counties_withgeo$totalpop}<br />
+mypopup <- glue::glue("<strong>{ky_counties_withgeo$NAM}</strong>Total Population: {ky_counties_withgeo$totalpopE}")
 
 
-# mylabel <- glue::glue("{all_data$State} {all_data$PctChange10_20}%") %>%
-#   lapply(htmltools::HTML)
+# mylabel <- glue::glue("{ky_counties_withgeo$NAM} {ky_counties_withgeo$medageE}")
+
+mapview(ky_counties_withgeo, zcol = "medageE", 
+         col.regions = RColorBrewer::brewer.pal(9, "Blues"), 
+         alpha.regions = 1,
+         label = mylabel,
+        popup = mypopup)
 ```
 
 [HOME](https://sophieholtzman.github.io/mywebsite/index.html)
