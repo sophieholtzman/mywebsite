@@ -81,4 +81,6 @@ mapview(ky_counties_withgeo, zcol = "medageE",
         popup = mypopup)
 ```
 
+Now, when we hover over the county, we see a popup that shows the total population!
+
 [HOME](https://sophieholtzman.github.io/mywebsite/index.html)
