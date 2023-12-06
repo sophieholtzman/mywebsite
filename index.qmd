@@ -36,4 +36,4 @@ View some of my work in R HERE
 
 ## News Story
 
-View my newswriting HERE
+View my newswriting [HERE](https://sophieholtzman.github.io/mywebsite/news%20story.html)
