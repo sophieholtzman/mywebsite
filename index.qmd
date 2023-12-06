@@ -1,0 +1,27 @@
+---
+title: "Home Page"
+format: html
+editor: visual
+---
+
+## Sophie Holtzman's Portfolio
+
+Welcome to my website! My name is Sophie Holtzman and I am a Junior at George Washington University with an International Affairs major and Journalism and Mass Communication minor. On this website, you will find some of my work, my resume, and a map visualization I created in R.
+
+![Sophie Holtzman](IMG_0069_Facetune_06-11-2020-23-14-41 (2).jpeg){fig-align="center" width="440"}
+
+Outside of academics, I am currently interning at FINN Partners in DC, serving as the President of GW student organization BridgeGW, and participating in my sorority, Pi Beta Phi. I also enjoy all things outdoors, from running half marathons to exploring DC with my friends. This spring, I will be studying abroad in Australia and look forward to picking up a number of new outdoorsy hobbies! Please feel free to contact me at any time using the contact information below.
+
+## Contact Information
+
+Email: sophieholtz\@gwu.edu
+
+LinkedIn: [Sophie Holtzman](https://www.linkedin.com/in/sophie-holtzman-02813a201/)
+
+## Resume
+
+View my current resume [HERE](https://github.com/sophieholtzman/mywebsite/blob/main/Sophie%202023.pdf)
+
+## GitHub
+
+View my GitHub [HERE](https://github.com/sophieholtzman)
