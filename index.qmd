@@ -32,7 +32,7 @@ View an example of my academic writing [HERE](https://sophieholtzman.github.io/m
 
 ## Map Visualization
 
-View some of my work in R HERE
+View some of my work in R [HERE](https://sophieholtzman.github.io/mywebsite/mapvisuals.html)
 
 ## News Story
 
