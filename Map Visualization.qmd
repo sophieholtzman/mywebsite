@@ -8,4 +8,24 @@ editor: visual
 
 Below you can view a walkthrough of an interactive county census analysis that I did in R.
 
-HOME
+[HOME](https://sophieholtzman.github.io/mywebsite/index.html)
+
+{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tigris)
+library(sf)
+library(tidycensus)
+library(htmltools)
+library(janitor)
+library(here)
+library(mapview)
+library(leafsync)
+library(leaflet.extras2)
+options(tigris_class = "sf")
+
+
+
+
+
