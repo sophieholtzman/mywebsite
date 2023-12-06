@@ -28,7 +28,7 @@ View my GitHub [HERE](https://github.com/sophieholtzman)
 
 ## Academic Writing
 
-View an example of my academic writing HERE
+View an example of my academic writing [HERE](https://sophieholtzman.github.io/mywebsite/academic%20paper.html)
 
 ## Map Visualization
 
