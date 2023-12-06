@@ -6,6 +6,8 @@ editor: visual
 
 ## Literature Review
 
+This project is a literature review I wrote for the Dean's Scholars program at GW. In it, I reviewed literature surrounding my chosen topic and laid out the research question I am seeking to answer.
+
 **Introduction**
 
 Rural Aboriginal communities in Australia face many disadvantages, from disproportionate access to health, education, and transport services to the lasting impacts of European colonization, which hindered the intergenerational transference of language and knowledge, and the legacy of former governmental policies designed to socially isolate Aboriginal communities and forbid their cultural practices.(,)  The combination of these challenges faced by rural Aboriginal communities in recent decades further exacerbates the effects of perhaps the most pressing challenge of all: climate change.

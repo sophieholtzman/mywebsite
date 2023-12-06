@@ -4,6 +4,7 @@ format: html
 editor: visual
 ---
 
+
 ## Map Visualization
 
 Below you can view a walkthrough of an interactive county census analysis that I did in R.
@@ -17,6 +18,7 @@ state = "KY",
 output = "wide",
 
 geometry = TRUE)
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -47,14 +49,18 @@ ky_counties_withgeo <- get_acs(geography = "county",
 
 ```
 
+
 Above, I loaded in all of my data and packages. Below, I'll begin to look at specific census data for Kentucky. Let's pull up a map!
+
 
 ```{r}
 mapview(ky_counties_withgeo, zcol = "medageE")
 
 ```
 
+
 In the above map, you can view Kentucky's counties color coded by the median age of the county's residents. This was pulled from census data and we are using MapView to create this map. Now, let's add a custom label to the map.
+
 
 ```{r}
 mylabel <- glue::glue("{ky_counties_withgeo$NAM} {ky_counties_withgeo$medageE}")
@@ -66,7 +72,9 @@ mapview(ky_counties_withgeo, zcol = "medageE",
          label = mylabel)
 ```
 
+
 Not only does this change the color of the map (because I personally like blue better), but it also labels each county so that when you hover over it the county name is displayed.
+
 
 ```{r}
 mypopup <- glue::glue("<strong>{ky_counties_withgeo$NAM}</strong><br />
@@ -77,4 +85,6 @@ mypopup <- glue::glue("<strong>{ky_counties_withgeo$NAM}</strong><br />
 #   lapply(htmltools::HTML)
 ```
 
+
 [HOME](https://sophieholtzman.github.io/mywebsite/index.html)
+
