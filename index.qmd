@@ -25,3 +25,15 @@ View my current resume [HERE](https://github.com/sophieholtzman/mywebsite/blob/m
 ## GitHub
 
 View my GitHub [HERE](https://github.com/sophieholtzman)
+
+## Academic Writing
+
+View an example of my academic writing HERE
+
+## Map Visualization
+
+View some of my work in R HERE
+
+## News Story
+
+View my newswriting HERE

@@ -7,3 +7,5 @@ editor: visual
 ## Map Visualization
 
 Below you can view a walkthrough of an interactive county census analysis that I did in R.
+
+HOME
